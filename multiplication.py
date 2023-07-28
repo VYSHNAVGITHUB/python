@@ -1,3 +1,5 @@
-number=int(input("enter num"))
-for i in range(1,10+1):
-    print(i,'*',number,"=",i*number)
+num=int(input('enter the num'))
+i=1
+while i<=10:
+    print(i,"*",num,"=",i*num)
+    i=i+1

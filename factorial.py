@@ -1,6 +1,7 @@
-num=int(input('enter number'))
-fac=1
-for i in range(1,num+1):
-    fac*=i
-
-print('The factorial of the',num,"is",fac)
+num=5
+i=1
+fact=1
+while 1<=num :
+    fact=fact*i
+    i=i+1
+print(fact)
