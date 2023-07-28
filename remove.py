@@ -1,14 +1,10 @@
-l-[1,2,3,4]
-print(l)
+d={"name":"anu","age":19,"place":'kochi','name':"amal"}
+#   single element remove
+del d['age']
 
-#  remove single element
-l.remove(2)
-print(l)
+#   full element remove
+d.clear()
+#   delete dictionary
+del d
 
-#  remove full element
-l.clear()
-print(l)
-
-#  delete list
-del l
-print()
+print(d)

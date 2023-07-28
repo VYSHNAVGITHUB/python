@@ -1,7 +1,6 @@
-#   keep order
-#   heterogeneous
-#   support duplication
-#   support indexing
-#   support nesting
-#   immutable  (cannot update)
-
+#    keep order
+#    heterogeneous
+#    key must be unique
+#    values can duplicate
+#    doesn't support indexing
+#    mutable
